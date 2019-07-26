@@ -17,13 +17,13 @@ public enum KebabMenuType {
     case horizontalDots
 }
 
-public class KebabMenu: UIView {
+public class KebabMenuView: UIView {
 
-    var menuType : KebabMenuType = .none
-    var fillColor = #colorLiteral(red: 0.8823529412, green: 0.862745098, blue: 0.831372549, alpha: 1)
-    var strokeColor = #colorLiteral(red: 0.8823529412, green: 0.862745098, blue: 0.831372549, alpha: 1)
-    var dashedBorderLineColor = UIColor.lightGray
-    var dashedBorderLineDashPattern : [NSNumber] = [2,3]
+    public var menuType : KebabMenuType = .none
+    public var fillColor = #colorLiteral(red: 0.8823529412, green: 0.862745098, blue: 0.831372549, alpha: 1)
+    public var strokeColor = #colorLiteral(red: 0.8823529412, green: 0.862745098, blue: 0.831372549, alpha: 1)
+    public var dashedBorderLineColor = UIColor.lightGray
+    public var dashedBorderLineDashPattern : [NSNumber] = [2,3]
 
     private var bezierPath : UIBezierPath?
     

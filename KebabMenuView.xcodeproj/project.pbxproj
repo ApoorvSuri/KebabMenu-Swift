@@ -10,8 +10,8 @@
 		D188B20122EB557E00BDC1D8 /* KebabMenuView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D188B1F722EB557E00BDC1D8 /* KebabMenuView.framework */; };
 		D188B20622EB557E00BDC1D8 /* KebabMenuViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D188B20522EB557E00BDC1D8 /* KebabMenuViewTests.swift */; };
 		D188B20822EB557E00BDC1D8 /* KebabMenuView.h in Headers */ = {isa = PBXBuildFile; fileRef = D188B1FA22EB557E00BDC1D8 /* KebabMenuView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D188B21222EB55AB00BDC1D8 /* KebabMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = D188B21122EB55AB00BDC1D8 /* KebabMenu.swift */; };
-		D188B21322EB55AB00BDC1D8 /* KebabMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = D188B21122EB55AB00BDC1D8 /* KebabMenu.swift */; };
+		D188B21222EB55AB00BDC1D8 /* KebabMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D188B21122EB55AB00BDC1D8 /* KebabMenuView.swift */; };
+		D188B21322EB55AB00BDC1D8 /* KebabMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D188B21122EB55AB00BDC1D8 /* KebabMenuView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +31,7 @@
 		D188B20022EB557E00BDC1D8 /* KebabMenuViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KebabMenuViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D188B20522EB557E00BDC1D8 /* KebabMenuViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KebabMenuViewTests.swift; sourceTree = "<group>"; };
 		D188B20722EB557E00BDC1D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D188B21122EB55AB00BDC1D8 /* KebabMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KebabMenu.swift; sourceTree = "<group>"; };
+		D188B21122EB55AB00BDC1D8 /* KebabMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KebabMenuView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +74,7 @@
 		D188B1F922EB557E00BDC1D8 /* KebabMenuView */ = {
 			isa = PBXGroup;
 			children = (
-				D188B21122EB55AB00BDC1D8 /* KebabMenu.swift */,
+				D188B21122EB55AB00BDC1D8 /* KebabMenuView.swift */,
 				D188B1FA22EB557E00BDC1D8 /* KebabMenuView.h */,
 				D188B1FB22EB557E00BDC1D8 /* Info.plist */,
 			);
@@ -199,7 +199,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D188B21222EB55AB00BDC1D8 /* KebabMenu.swift in Sources */,
+				D188B21222EB55AB00BDC1D8 /* KebabMenuView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,7 +208,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D188B20622EB557E00BDC1D8 /* KebabMenuViewTests.swift in Sources */,
-				D188B21322EB55AB00BDC1D8 /* KebabMenu.swift in Sources */,
+				D188B21322EB55AB00BDC1D8 /* KebabMenuView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

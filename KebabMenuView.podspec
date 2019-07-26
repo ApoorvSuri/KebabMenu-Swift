@@ -12,7 +12,7 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target = '12.0'
   spec.requires_arc = true
   spec.name         = "KebabMenuView"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary      = "Kebab Menu is a framework used to render lines in a dotted pattern to represent relations between messages and their children"
   spec.description  = "The kebab menu is a completely customisable UIView subclass that can be used to show the relationship between messages/tweets in a parent-child relationship."
   spec.homepage     = "https://github.com/ApoorvSuri/KebabMenuView"
