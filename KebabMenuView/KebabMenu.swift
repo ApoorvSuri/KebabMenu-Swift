@@ -8,7 +8,7 @@
 
 import UIKit
 
-enum KebabMenuType {
+public enum KebabMenuType {
     case none
     case single
     case singleWithDots
@@ -17,7 +17,7 @@ enum KebabMenuType {
     case horizontalDots
 }
 
-class KebabMenuView: UIView {
+public class KebabMenu: UIView {
 
     var menuType : KebabMenuType = .none
     var fillColor = #colorLiteral(red: 0.8823529412, green: 0.862745098, blue: 0.831372549, alpha: 1)
@@ -27,7 +27,7 @@ class KebabMenuView: UIView {
 
     private var bezierPath : UIBezierPath?
     
-    override func draw(_ rect: CGRect) {
+    override public func draw(_ rect: CGRect) {
         backgroundColor = UIColor.clear
         let x = bounds.size.width/2
 

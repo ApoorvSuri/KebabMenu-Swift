@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
   spec.platform = :ios
   spec.framework = "UIKit"
   spec.ios.deployment_target = '12.0'
-  Spec.requires_arc = true
+  spec.requires_arc = true
   spec.name         = "KebabMenuView"
   spec.version      = "1.0.0"
   spec.summary      = "Kebab Menu is a framework used to render lines in a dotted pattern to represent relations between messages and their children"
@@ -20,6 +20,5 @@ Pod::Spec.new do |spec|
   spec.author             = { "Apoorv Suri" => "apoorvsuri2012@gmail.com" }
   spec.source       = { :git => "https://github.com/ApoorvSuri/KebabMenuView.git", :tag => "1.0.0" }
   spec.source_files  = "KebabMenuView/**/*.{swift}"
-  spec.resources = "KebabMenuView/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
   spec.swift_version = "4.2"
 end
